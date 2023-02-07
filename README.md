@@ -2,12 +2,18 @@
 Tạo chatbot với ChatGPT bằng Python
 
 # Cách cài đặt
+## Trên Linux
 Bước 1: Cài đặt các package cần thiết
 `sudo apt install git pip xvfb chromium-driver`
 
 Bước 2: Cài đặt các package bổ sung
 `sudo apt install nano`
 
+## Trên Windows
+Bước 1-2: Cài đặt python3 và chrome browser
+![image](https://user-images.githubusercontent.com/69446798/217173869-47463743-da1b-4f58-9786-2dd2dca45476.png)
+
+## Chung cho cả hai
 Bước 3: Các bạn clone repo này về bằng lệnh: 
 `git clone https://github.com/Wiviart/ChatGPT-Python.git`
 
@@ -27,6 +33,7 @@ Bước 8: Mở và copy Token ChatGPT vào pyChatbotGPT.py (sử dụng nano ho
 
 Bước 9: Chạy pyChatbotGPT.py
 `python3 pyChatbotGPT.py`
+
 ![image](https://user-images.githubusercontent.com/69446798/217171816-025e84de-e979-47a1-bc9f-d9d5806f49e5.png)
 
 Nếu thành công, cửa sổ ChatGPT sẽ mở ra từ trình duyệt Chrome.
