@@ -28,11 +28,11 @@ Bước 6: Bật F12 và vào tab Application > Storage > Cookies > Chọn mục
 Bước 7: Dán mã token đó vào biến session_token trong file pyChatbotGPT.py
 ![image](https://user-images.githubusercontent.com/69446798/217171751-2263d6bd-b38d-4a65-bb4e-f68cbd6ace4d.png)
 
-Bước 8: Mở và copy Token ChatGPT vào pyChatbotGPT.py (sử dụng nano hoặc các phần mềm edit khác)
-`nano pyChatbotGPT.py`
+Bước 8: Mở và copy Token ChatGPT vào ChatGPT.py (sử dụng nano hoặc các phần mềm edit khác)
+`nano ChatGPT.py`
 
-Bước 9: Chạy pyChatbotGPT.py
-`python3 pyChatbotGPT.py`
+Bước 9: Chạy ChatGPT.py
+`python3 ChatGPT.py`
 
 ![image](https://user-images.githubusercontent.com/69446798/217171816-025e84de-e979-47a1-bc9f-d9d5806f49e5.png)
 
