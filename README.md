@@ -4,10 +4,10 @@ Tạo chatbot với ChatGPT bằng Python
 # Cách cài đặt
 ## Trên Linux
 Bước 1: Cài đặt các package cần thiết
-`sudo apt install git pip xvfb chromium-driver`
+`sudo apt install git pip`
 
 Bước 2: Cài đặt các package bổ sung
-`sudo apt install nano`
+`sudo apt install nano xvfb chromium-driver`
 
 ## Trên Windows
 Bước 1-2: Cài đặt python3 và chrome browser
