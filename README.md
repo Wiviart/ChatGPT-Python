@@ -15,14 +15,14 @@ Bước 1-2: Cài đặt python3 và chrome browser
 
 ## Chung cho cả hai
 Bước 3: Các bạn clone repo này về bằng lệnh: 
-`git clone https://github.com/Wiviart/ChatGPT-Python.git`
+```git clone https://github.com/Wiviart/ChatGPT-Python.git```
 
 Bước 4: Cài đặt các thư viện python cần thiết: 
 `pip install -r requirements.txt`
 
 Bước 5: Đăng nhập vào chat.openai.com, hỏi bất kỳ điều gì và chờ AI trả lời.
 
-Bước 6: Bật F12 và vào tab Application > Storage > Cookies > Chọn mục đầu tiên và tìm token có tên là "__Secure-next-auth.session-token". Sau đó copy mã token trong cột Value.
+Bước 6: Bật F12 và vào tab `Application` > `Storage` > `Cookies` > Chọn mục đầu tiên và tìm token có tên là `__Secure-next-auth.session-token`. Sau đó copy mã token trong cột `Value`.
 ![image](https://user-images.githubusercontent.com/69446798/217171701-6453ee3b-0456-44f7-ac65-5befadb4e014.png)
 
 Bước 7: Dán mã token đó vào biến session_token trong file pyChatbotGPT.py
